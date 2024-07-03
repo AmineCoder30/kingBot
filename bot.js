@@ -1,7 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 const token = "7215476584:AAFrcIN7h-d0I2veq8JTQH1H64XktprbuXQ";
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token);
 
 bot.setWebHook(`https://king-bot.vercel.app/`);
 
